@@ -1,4 +1,5 @@
 import mysql from 'mysql2';
+import type { Query } from 'mysql2'
 import cfg from '../config';
 
 import type { Connection, ConnectionOptions } from 'mysql2';

@@ -6,10 +6,9 @@ class Employee extends CommonOperations {
   }
 
   public test() {
-    console.log("TABLE:", this.table);
   }
 }
 
-const model = new Employee('positions');
+const model = new Employee('employee');
 
 export default model;
